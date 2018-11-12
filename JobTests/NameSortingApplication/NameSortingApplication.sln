@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSortingApplication", "NameSortingApplication\NameSortingApplication.csproj", "{4F679C80-09B5-48F5-A377-9BDC82970011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestForNameSorting", "XUnitTestProject1\XUnitTestForNameSorting.csproj", "{BE691D9F-312F-43AB-8632-8E391AFC8D80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F679C80-09B5-48F5-A377-9BDC82970011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F679C80-09B5-48F5-A377-9BDC82970011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F679C80-09B5-48F5-A377-9BDC82970011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F679C80-09B5-48F5-A377-9BDC82970011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE691D9F-312F-43AB-8632-8E391AFC8D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE691D9F-312F-43AB-8632-8E391AFC8D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE691D9F-312F-43AB-8632-8E391AFC8D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE691D9F-312F-43AB-8632-8E391AFC8D80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13513CC6-5867-456D-B6ED-7CF6257B81FD}
+	EndGlobalSection
+EndGlobal

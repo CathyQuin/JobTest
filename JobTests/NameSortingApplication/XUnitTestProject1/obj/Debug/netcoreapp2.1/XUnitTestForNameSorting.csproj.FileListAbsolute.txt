@@ -1,0 +1,17 @@
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestForNameSorting.deps.json
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestForNameSorting.runtimeconfig.json
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestForNameSorting.runtimeconfig.dev.json
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestForNameSorting.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestForNameSorting.pdb
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\NameSortingApplication.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\bin\Debug\netcoreapp2.1\NameSortingApplication.pdb
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestForNameSorting.csprojAssemblyReference.cache
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestForNameSorting.csproj.CoreCompileInputs.cache
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestForNameSorting.AssemblyInfoInputs.cache
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestForNameSorting.AssemblyInfo.cs
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestForNameSorting.csproj.CopyComplete
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestForNameSorting.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestForNameSorting.pdb
