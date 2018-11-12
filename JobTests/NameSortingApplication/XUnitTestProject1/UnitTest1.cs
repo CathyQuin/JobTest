@@ -3,41 +3,56 @@ using Xunit;
 using NameSortingApplication;
 using System.IO;
 
-namespace XUnitTestForNameSorting
-{
-    public class UT1TestPerson
-    {
+namespace XUnitTestForNameSorting {
+    public class UT1TestPerson {
+
         [Fact]
-        public void PersonObjectIsCreatedWithPrintName()
-        {
+        public void PersonObjectIsCreatedWithPrintName() {
+
             string TestData = "Cathy Ferguson";
 
-            Person TestPerson = CreateTestPerson(TestData);
-            string TestPersonPrintName = TestPerson.GetPrintName();
-
-            Assert.True(TestPersonPrintName == TestData);
+            Person TestPerson = new Person(TestData);
+            Assert.True(TestPerson.GetPrintName() == TestData);
         }
 
         [Fact]
-        public void PersonObjectIsCreatedWithSortName()
-        {
-            string TestData = "Cathy Ferguson";
-            string AnswerData = "Ferguson Cathy";
+        public void PersonObjectIsCreatedWithSortName() {
 
-            Person TestPerson = CreateTestPerson(TestData);
-            string TestPersonSortName = TestPerson.GetSortName();
+            string TestData = "Cathryn Gaye Ferguson";
+            string AnswerData = "Ferguson Cathryn Gaye";
 
-            Assert.True(TestPersonSortName == AnswerData);
-        }
-
-
-
-
-        // Create a test Person object from string
-        public Person CreateTestPerson(string inName)
-        {
-            Person newPerson = new Person(inName);
-            return newPerson;
+            Person TestPerson = new Person(TestData);
+            Assert.True(TestPerson.GetSortName() == AnswerData);
         }
     }
+
+    public class UT2TestPersonList {
+
+        [Fact]
+        public void ListObjectIsCreated() {
+
+            PersonList TestList = new PersonList();
+            string TestData1 = "Lady Madonna";
+            string TestData2 = "Joe Andrew Smith";
+            string TestData5 = "Donny Dumbo";
+
+            TestList.AddPerson(TestData1);
+            TestList.AddPerson(TestData2);
+            //TestList.AddPerson("Apple Fruitcake");
+            //TestList.AddPerson("Lumpy Lumbah");
+            TestList.AddPerson(TestData5);
+
+            TestList.SortList();
+
+            //TestList.PrintList();
+
+            Assert.True(TestList[0].GetPrintName() == "Donny Dumbo");
+
+
+
+        }
+
+
+    }
+
 }
