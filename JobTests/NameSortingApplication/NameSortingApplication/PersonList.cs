@@ -18,7 +18,8 @@ namespace NameSortingApplication {
      * ------------------------------------------------------------
      */
 
-    public class PersonList : List<Person>{
+    //public class PersonList : List<Person>{
+    public class PersonList {
 
         private List<Person> MyList;
 
@@ -27,13 +28,22 @@ namespace NameSortingApplication {
         }
 
         public void AddPerson(string inputName) {
-            MyList.Add(new Person(inputName));
+            Person newPerson = new Person(inputName);
+            MyList.Add(newPerson);
+        }
+
+        public int Count() {
+            return MyList.Count;
         }
 
         public void SortList() {
             MyList.Sort(delegate (Person a, Person b) {
                 return a.GetSortName().CompareTo(b.GetSortName());
             });
+        }
+
+        public string GetPersonPrintName(int inIndex) {
+            return MyList[inIndex].GetPrintName();
         }
 
         public void PrintList() {

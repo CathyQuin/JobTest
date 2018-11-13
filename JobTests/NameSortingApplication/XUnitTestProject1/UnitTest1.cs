@@ -1,9 +1,10 @@
 using System;
 using Xunit;
 using NameSortingApplication;
-using System.IO;
 
 namespace XUnitTestForNameSorting {
+
+    /* Testing Person class */
     public class UT1TestPerson {
 
         [Fact]
@@ -26,29 +27,50 @@ namespace XUnitTestForNameSorting {
         }
     }
 
+    /* Testing PersonList class */
     public class UT2TestPersonList {
 
         [Fact]
         public void ListObjectIsCreated() {
 
             PersonList TestList = new PersonList();
+            int tempNum = TestList.Count();
+            Assert.True(tempNum == 0); 
+        }
+
+        [Fact]
+        public void ListObjectHasOneRecord() {
+
+            PersonList TestList = new PersonList();
+            string TestData1 = "Lady Madonna";
+            TestList.AddPerson(TestData1);
+
+            Assert.True(TestList.GetPersonPrintName(0) == TestData1);
+        } 
+
+        [Fact]
+        public void ListObjectIsSorted() {
+            PersonList TestList = new PersonList();
+
             string TestData1 = "Lady Madonna";
             string TestData2 = "Joe Andrew Smith";
+            string TestData3 = "Apple Fruitcake";
+            string TestData4 = "Lumpy Lumbah";
             string TestData5 = "Donny Dumbo";
 
             TestList.AddPerson(TestData1);
             TestList.AddPerson(TestData2);
-            //TestList.AddPerson("Apple Fruitcake");
-            //TestList.AddPerson("Lumpy Lumbah");
+            TestList.AddPerson(TestData3);
+            TestList.AddPerson(TestData4);
             TestList.AddPerson(TestData5);
 
             TestList.SortList();
 
-            //TestList.PrintList();
-
-            Assert.True(TestList[0].GetPrintName() == "Donny Dumbo");
-
-
+            Assert.True(TestList.GetPersonPrintName(0) == TestData5); // Dumbo, Donny
+            Assert.True(TestList.GetPersonPrintName(1) == TestData3); // Fruitcake, Apple
+            Assert.True(TestList.GetPersonPrintName(2) == TestData4); // Lumbah, Lumpy
+            Assert.True(TestList.GetPersonPrintName(3) == TestData1); // Madonna, Lady
+            Assert.True(TestList.GetPersonPrintName(4) == TestData2); // Smith, Joe Andrew
 
         }
 
