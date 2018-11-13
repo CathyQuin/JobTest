@@ -18,7 +18,6 @@ namespace NameSortingApplication {
      * ------------------------------------------------------------
      */
 
-    //public class PersonList : List<Person>{
     public class PersonList {
 
         private List<Person> MyList;
@@ -46,10 +45,16 @@ namespace NameSortingApplication {
             return MyList[inIndex].GetPrintName();
         }
 
-        public void PrintList() {
-            Console.WriteLine(MyList[0].GetPrintName());
-            Console.WriteLine(MyList[1].GetPrintName());
-            Console.WriteLine(MyList[2].GetPrintName());
+        public string PrintList() {
+
+            string PrintList = "\n";
+            int PersonCount = MyList.Count;
+
+            for (int i = 0; i < PersonCount; i++) {
+                PrintList = PrintList + MyList[i].GetPrintName() + "\n";
+            }
+
+            return PrintList;
         }
     }
 }

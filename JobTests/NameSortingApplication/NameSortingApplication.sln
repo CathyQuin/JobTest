@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSortingApplication", "NameSortingApplication\NameSortingApplication.csproj", "{4F679C80-09B5-48F5-A377-9BDC82970011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameSortingApplication", "NameSortingApplication\NameSortingApplication.csproj", "{4F679C80-09B5-48F5-A377-9BDC82970011}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestForNameSorting", "XUnitTestProject1\XUnitTestForNameSorting.csproj", "{BE691D9F-312F-43AB-8632-8E391AFC8D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestForNameSorting", "XUnitTestProject1\XUnitTestForNameSorting.csproj", "{BE691D9F-312F-43AB-8632-8E391AFC8D80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

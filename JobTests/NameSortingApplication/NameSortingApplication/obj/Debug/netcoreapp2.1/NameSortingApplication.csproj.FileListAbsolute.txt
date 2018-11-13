@@ -8,4 +8,3 @@ C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplicati
 C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.AssemblyInfo.cs
 C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.dll
 C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.pdb
-C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.csprojAssemblyReference.cache

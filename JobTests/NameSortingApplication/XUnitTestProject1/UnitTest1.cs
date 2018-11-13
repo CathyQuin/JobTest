@@ -35,7 +35,7 @@ namespace XUnitTestForNameSorting {
 
             PersonList TestList = new PersonList();
             int tempNum = TestList.Count();
-            Assert.True(tempNum == 0); 
+            Assert.True(tempNum == 0);
         }
 
         [Fact]
@@ -46,7 +46,7 @@ namespace XUnitTestForNameSorting {
             TestList.AddPerson(TestData1);
 
             Assert.True(TestList.GetPersonPrintName(0) == TestData1);
-        } 
+        }
 
         [Fact]
         public void ListObjectIsSorted() {
@@ -73,8 +73,27 @@ namespace XUnitTestForNameSorting {
             Assert.True(TestList.GetPersonPrintName(4) == TestData2); // Smith, Joe Andrew
 
         }
+    }
+        
+    /* Testing ListReader class */
+    public class UT3TestListReader {
+
+        string FileLocation = "C:/Users/Cathy/source/repos/JobTests/NameSortingApplication/NameSortingApplication/unsorted-names-list.txt";
+
+        [Fact]
+        public void ListReaderIsCreated() {
+            ListReader MyReader = new ListReader(FileLocation);
+            Assert.True(MyReader != null);
+        }
+
+        [Fact]
+        public void ListReaderIsFilled() {
+            ListReader MyReader = new ListReader(FileLocation);
+            //MyReader.InputList();
+            string MyOutput = MyReader.OutputList();
+            Assert.True(MyOutput != "");
+        }
 
 
     }
-
 }

@@ -36,15 +36,10 @@ namespace NameSortingApplication {
 
         // 
         private void CreateSortName() {
-            string TempName = PrintName;
-
-            // rearrange tempname
-            int DivPos = TempName.LastIndexOf(" ");
-            string GivenNames = TempName.Substring(0, DivPos);
-            string SurName = TempName.Substring(DivPos + 1);
-            TempName = SurName + " " + GivenNames;
-
-            SortName = TempName;
+            int DivPos = PrintName.LastIndexOf(" ");
+            string GivenNames = PrintName.Substring(0, DivPos);
+            string SurName = PrintName.Substring(DivPos + 1);
+            SortName = SurName + " " + GivenNames;
         }
 
 
