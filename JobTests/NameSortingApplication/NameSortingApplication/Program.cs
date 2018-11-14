@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace NameSortingApplication
 {
@@ -6,23 +7,21 @@ namespace NameSortingApplication
     {
 
         // Main
-        static void Main(string[] args)
-        {
-            // Just checking all is well - delete last!
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+        static void Main(string[] args) {
 
-            // Real start of program
-            //string FileLocation = "C:/Users/Cathy/source/repos/JobTests/NameSortingApplication/NameSortingApplication/unsorted-names-list.txt";
-            string FileLocation = "../../../unsorted-names-list.txt";
+            string InputFileLocation = "../../../unsorted-names-list.txt";
+            string OutputFileLocation = "../../../sorted-names-list.txt";
             string MyData = "";
 
-            ListReader myListReader = new ListReader(FileLocation);
+            ListReader myListReader = new ListReader(InputFileLocation);
             MyData = myListReader.OutputList();
 
-            Console.Write(MyData); // output to console
-            // TODO - write data to txt file
+            StreamWriter sw = new StreamWriter(OutputFileLocation);
+            sw.Write(MyData);
+            sw.Close();
 
+            Console.Write(MyData); // output to console
+            Console.Write("\nPress any key to exit");
             Console.ReadKey();
 
         } 

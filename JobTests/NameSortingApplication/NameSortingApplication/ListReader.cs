@@ -5,14 +5,36 @@ using System.IO;
 
 namespace NameSortingApplication {
 
-     public class ListReader {
+    /* -----------------------------------------------------------
+     * Author:  Cathryn Gaye Ferguson (Cathy)
+     * Date:    12 November 2018
+     * Email:   quin.tuplet.72@gmail.com
+     * Client:  Globalx - Application for Software Engineer Role
+     * -----------------------------------------------------------
+     * "List Reader" class:  Responsible for converting the 
+     * provided data into a sorted string with line breaks. This is 
+     * achieved by reading the text file, converting the data into
+     * a sorted list, and returning the data as a formatted string.
+     * 
+     * Fields/Objects: 
+     * My Reader (StreamReader, to access text file)
+     * My List (PersonList, to hold retrieved data)
+     * New Person (string, parameter to create each new list item)
+     * Print List Data (string, returned to caller for output)
+     * 
+     * Depends on: PersonList class
+     * ------------------------------------------------------------
+     */
 
-        private StreamReader MyReader;
-        private PersonList MyList;
-        private string NewPerson;
-        private string PrintListData;
+    public class ListReader {
 
-        // "./unsorted-names-list.txt"
+        /* private objects/fields */
+        private StreamReader MyReader; // accesses text file
+        private PersonList MyList; // stores imported data
+        private string NewPerson; // parameter for new list item
+        private string PrintListData; // output data
+
+
 
         public ListReader(string FileLocation) {
             MyReader = new StreamReader(FileLocation);
