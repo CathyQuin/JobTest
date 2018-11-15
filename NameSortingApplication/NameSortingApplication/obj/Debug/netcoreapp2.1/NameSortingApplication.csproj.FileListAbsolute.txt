@@ -1,0 +1,10 @@
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\bin\Debug\netcoreapp2.1\NameSortingApplication.deps.json
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\bin\Debug\netcoreapp2.1\NameSortingApplication.runtimeconfig.json
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\bin\Debug\netcoreapp2.1\NameSortingApplication.runtimeconfig.dev.json
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\bin\Debug\netcoreapp2.1\NameSortingApplication.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\bin\Debug\netcoreapp2.1\NameSortingApplication.pdb
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.csproj.CoreCompileInputs.cache
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.AssemblyInfoInputs.cache
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.AssemblyInfo.cs
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.dll
+C:\Users\Cathy\source\repos\JobTests\NameSortingApplication\NameSortingApplication\obj\Debug\netcoreapp2.1\NameSortingApplication.pdb
